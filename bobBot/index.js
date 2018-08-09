@@ -4,7 +4,7 @@ const cron = require('node-cron');
 
 const botBot = new BobBot();
 
-cron.schedule('* * * * * *', () => {
+cron.schedule('40 12 * * *', () => {
   const lunchMessage = botBot.getLunchMessage();
   botBot.sendMessage(lunchMessage);
 });
