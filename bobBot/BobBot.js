@@ -4,7 +4,7 @@ class BobBot {
   getLunchMessage() {
     const time = Math.floor(Math.random() * 10) + 45;
     const text = `밥봇이 알려주는 최적의 밥타임은 ${time}분입니다!`;
-    return text;
+    return { message: text, time };
   }
   
   sendMessage(message) {
