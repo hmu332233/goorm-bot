@@ -15,8 +15,8 @@ class BobBot {
         'Content-Type': 'application/json'
       },
       body: {
-        botName: 'Bob Bot',
-        botIconImage: 'https://t1.daumcdn.net/cfile/tistory/156F7D384FD54E1526',
+        username: 'Bob Bot',
+        icon_url: 'https://t1.daumcdn.net/cfile/tistory/156F7D384FD54E1526',
         text: message
       },
       json: true
